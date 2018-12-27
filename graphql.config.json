@@ -1,0 +1,19 @@
+{
+
+  "README_schema" : "Specifies how to load the GraphQL schema that completion, error highlighting, and documentation is based on in the IDE",
+  "schema": {
+    "request": {
+      "url" : "http://localhost:3000/graphql",
+      "method" : "POST",
+      "postIntrospectionQuery" : true
+    }
+
+  },
+
+  "endpoints" : [
+    {
+      "url": "http://localhost:3000/graphql"
+    }
+  ]
+
+}
