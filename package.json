@@ -11,13 +11,18 @@
   "author": "HellSquirrel",
   "license": "MIT",
   "dependencies": {
+    "@babel/preset-react": "^7.0.0",
     "apollo-cache-inmemory": "^1.3.12",
     "apollo-client": "^2.4.8",
     "apollo-link": "^1.2.6",
     "apollo-link-error": "^1.1.5",
     "apollo-link-http": "^1.5.9",
     "graphql": "^14.0.2",
-    "graphql-tag": "^2.10.0"
+    "graphql-tag": "^2.10.0",
+    "ramda": "^0.26.1",
+    "react": "^16.7.0",
+    "react-apollo": "^2.3.3",
+    "react-dom": "^16.7.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
